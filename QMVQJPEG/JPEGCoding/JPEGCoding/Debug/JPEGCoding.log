@@ -1,0 +1,23 @@
+﻿Build started 2016/2/28 22:22:05.
+     1>Project "G:\cppcode\669Projects\JPEGCoding\JPEGCoding\JPEGCoding.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Program Files (x86)\VisualStudio2013\VC\bin\CL.exe /c /I"G:\cppcode\669Projects\jpeg-9b" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+     1>g:\cppcode\669projects\jpegcoding\jpegcoding\jpegcoder.h(7): warning C4103: 'g:\cppcode\669projects\jpegcoding\jpegcoding\jpegcoder.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>g:\cppcode\669projects\jpegcoding\jpegcoding\main.cpp(2): warning C4103: 'g:\cppcode\669projects\jpegcoding\jpegcoding\main.cpp' : alignment changed after including header, may be due to missing #pragma pack(pop)
+       Link:
+         E:\Program Files (x86)\VisualStudio2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\cppcode\669Projects\JPEGCoding\Debug\JPEGCoding.exe" /INCREMENTAL /NOLOGO /LIBPATH:"G:\cppcode\669Projects\jpeg-9b\Release" jpeg.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\cppcode\669Projects\JPEGCoding\Debug\JPEGCoding.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\cppcode\669Projects\JPEGCoding\Debug\JPEGCoding.lib" /MACHINE:X86 Debug\FileManager.obj
+         Debug\JPEGCoder.obj
+         Debug\Main.obj
+         jpeg.lib(jerror.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+     1>FileManager.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+         JPEGCoding.vcxproj -> G:\cppcode\669Projects\JPEGCoding\Debug\JPEGCoding.exe
+     1>Done Building Project "G:\cppcode\669Projects\JPEGCoding\JPEGCoding\JPEGCoding.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.76
